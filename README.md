@@ -1,7 +1,7 @@
 # Simple-Authorization---ExpressJs
 Middleware: The server uses middleware to parse JSON request bodies and serve static files from a 'public' directory.
 
-User Management: An in-memory array (users) is used to store registered users. The application defines two secret keys for JWT signing, one for access tokens and another for refresh tokens.
+User Management: JSON is used for user management by facilitating the exchange of user credentials and authentication tokens between the client and server. When a user submits their login information (email and password), it is serialized into a JSON object and sent to the server via a POST request.
 
 Token Verification: A middleware function verifyToken checks for the presence of a valid access token in the request headers, allowing access to protected routes.
 
