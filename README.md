@@ -11,4 +11,4 @@ User Login: The /login route authenticates users by checking their email and pas
 
 Profile Access: The /profile route is protected by the verifyToken middleware, allowing users to access their profile information if they provide a valid access token.
 
-Token Refresh: The /token route allows users to obtain a new access token using a valid refresh token, extending their session without needing to log in again.
+
