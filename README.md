@@ -1,4 +1,8 @@
 # Simple-Authorization---ExpressJs
+
+Since the files were too large to upload on Github, you can start by creating a project for creating node modules.
+
+
 Middleware: The server uses middleware to parse JSON request bodies and serve static files from a 'public' directory.
 
 User Management: JSON is used for user management by facilitating the exchange of user credentials and authentication tokens between the client and server. When a user submits their login information (email and password), it is serialized into a JSON object and sent to the server via a POST request.
