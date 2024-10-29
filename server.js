@@ -86,7 +86,7 @@ app.post('/token', (req, res) => {
 
     try {
         const verified = jwt.verify(token, REFRESH_SECRET_KEY);
-        const accessToken = jwt.sign({ username: verified.username }, SECRET_KEY, { expiresIn: '1m' });
+        const accessToken = jwt.sign({ username: verified.username }, SECRET_KEY, { expiresIn: '10m' });
         res.json({ accessToken });
     } catch (err) {
         res.status(403).send('Invalid or expired token');
