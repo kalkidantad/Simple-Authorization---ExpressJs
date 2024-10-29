@@ -2,6 +2,10 @@
 
 Since the files were too large to upload on Github, you can start by creating a project for creating node modules.
 
+npm init -y
+npm install express jsonwebtoken bcryptjs
+
+
 
 Middleware: The server uses middleware to parse JSON request bodies and serve static files from a 'public' directory.
 
